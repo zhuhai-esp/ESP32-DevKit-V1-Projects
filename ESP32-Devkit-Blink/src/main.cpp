@@ -2,7 +2,7 @@
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Hello ESP32C3!!");
+  Serial.println("Hello ESP32!!");
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
